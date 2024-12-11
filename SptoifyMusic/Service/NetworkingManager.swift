@@ -180,9 +180,6 @@ class NetworkingManager {
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         
-        let message = MessageGetToken(client_id: "65ee357cb2d346aeb21d132cc1ee6e5d",
-                                      client_secret: "34775b31911148af84e466d25b0e2612")
-        let data = try! JSONEncoder().encode(message)
         let parameters: [String: String] = [
             "client_id": "65ee357cb2d346aeb21d132cc1ee6e5d",
             "client_secret": "34775b31911148af84e466d25b0e2612",
