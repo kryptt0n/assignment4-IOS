@@ -1,0 +1,50 @@
+does this structure correlates with this response:
+
+{
+  "playlists": {
+    "href": "https://api.spotify.com/v1/search?offset=0&limit=20&query=remaster%2520track%3ADoxy%2520artist%3AMiles%2520Davis&type=playlist&locale=en-GB,en;q%3D0.9,ru-RU;q%3D0.8,ru;q%3D0.7,en-US;q%3D0.6",
+    "limit": 20,
+    "next": "https://api.spotify.com/v1/search?offset=20&limit=20&query=remaster%2520track%3ADoxy%2520artist%3AMiles%2520Davis&type=playlist&locale=en-GB,en;q%3D0.9,ru-RU;q%3D0.8,ru;q%3D0.7,en-US;q%3D0.6",
+    "offset": 0,
+    "previous": null,
+    "total": 800,
+    "items": [
+      {
+        "collaborative": false,
+        "description": "MILES IN FRANCE is available to pre-order  - All of the Miles Davis' top tracks and fan favorites in one playlist! Featuring Blue in Green, Milestones, So What, Paraphernalia &amp; more.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4KcHcB0kG77SMypTh0UWCx"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4KcHcB0kG77SMypTh0UWCx",
+        "id": "4KcHcB0kG77SMypTh0UWCx",
+        "images": [
+          {
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8497e7d6c24cf9ad68a6badd62",
+            "height": null,
+            "width": null
+          }
+        ],
+        "name": "Miles Davis: Greatest Hits",
+        "owner": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/legacyrecordings"
+          },
+          "href": "https://api.spotify.com/v1/users/legacyrecordings",
+          "id": "legacyrecordings",
+          "type": "user",
+          "uri": "spotify:user:legacyrecordings",
+          "display_name": "Plugged In"
+        },
+        "public": true,
+        "snapshot_id": "AAAA0din4Aar//N/yrZhotz+KffybV35",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4KcHcB0kG77SMypTh0UWCx/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4KcHcB0kG77SMypTh0UWCx",
+        "primary_color": null
+      }
+    ]
+  }
+}
